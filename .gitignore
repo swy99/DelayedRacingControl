@@ -1,0 +1,21 @@
+# Model weights and checkpoints (large binaries)
+*.zip
+checkpoints/
+checkpoints_ft/
+best_model/
+best_model_ft/
+tb_logs/
+
+# Local tooling
+.claude/
+.cursor/
+
+# Training artifacts (large)
+runs/phase_logs/
+runs/variants/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
